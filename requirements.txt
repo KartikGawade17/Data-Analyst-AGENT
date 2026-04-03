@@ -1,0 +1,11 @@
+streamlit
+pandas
+matplotlib
+sqlalchemy
+pymysql
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langgraph
+ollama
