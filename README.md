@@ -1,6 +1,8 @@
 # SQL Data Analyst Agent
 
 ![Project Screenshot](ss1.png)
+### RESULT
+![Project Screenshot](ss2.png)
 
 ## Overview
 
