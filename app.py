@@ -91,6 +91,10 @@ def generate_sql(state: AgentState):
 
     generated_sql = response.content.strip()
 
+    generated_sql = generated_sql.replace("```sql", "")
+    generated_sql = generated_sql.replace("```", "")
+    generated_sql = generated_sql.strip()
+
     generated_sql = generated_sql.split(";")[0] + ";"
 
     state["generated_sql"] = generated_sql
